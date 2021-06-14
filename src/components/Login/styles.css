@@ -1,0 +1,183 @@
+.login{
+    width: 100%;
+    height: 100vh;
+    background: white;
+    position: relative;
+    border:1px solid rgb(255, 255, 255);
+}
+
+.login__container{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-self: center;
+
+}
+
+.logo_style{
+    width: 50px;
+}
+
+.login__logo{
+    width:100%;
+    max-width:416px;
+    margin:4% auto 15px auto;
+}
+
+.login__form{
+    width:100%;
+    max-width:352px;
+   margin:0 auto;
+
+    padding:24px 32px 32px 32px;
+    display:flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 12px 0px rgba(0,0,0,.15);
+}
+
+
+.login__sesion{
+
+    font-size:32px;
+    line-height: 40px;
+    font-weight:600;
+    padding-bottom:4px;
+
+}
+
+.login__form   >p{
+    font-size:14px;
+    line-height: 20px;
+    color:rgba(0,0,0,.9);
+}
+
+.div__Input{
+    font-size:14px;
+    padding:24px 12px 6px 12px;
+    border:1px solid rgba(0,0,0,.8);
+    border-radius: 4px;
+    display: flex;
+    align-self: center;
+    margin-top:20px;
+
+}
+
+.div__Input > input{
+    border: none;
+    outline: 0;
+    font-size:18px;
+    flex:1;
+} 
+
+.login__form   > form   >p{
+color:#0a66c2;
+border-radius: 28px;
+font-size:16px;
+font-weight:600 ;
+margin-top: 8px;
+display: inline-block;
+padding:5px 8px;
+margin:10px 0;
+}
+
+.login__form   > form   >p:hover{
+text-decoration: underline;
+background:#d0e8ff;
+
+}
+
+.login__form button{
+   width:100%  !important;
+   margin-top:16px !important;
+   border-radius:28px !important;
+   background: #d1d5da !important; 
+   font-size:16px !important;
+   line-height: 37px !important;
+   text-transform:none !important;
+
+
+}
+
+.login__form button:hover{
+  background:#004182 !important; 
+
+
+}
+
+.login__footer{
+    text-align: center;
+    margin-top:40px;
+    font-size:16px;
+    line-height: 24px;
+
+}
+
+.login__footer > span{
+    color:#0a66c2;
+    font-weight: 600;
+    cursor:pointer;
+    padding:8px 3px;
+    border-radius:28px;
+
+}
+
+.login__footer > span:hover{
+    text-decoration: underline;
+    background:#d0e8ff;
+}
+
+.login.register{
+    background:#f3f2ef;
+
+}
+
+.login__logo.register{
+    display: flex;
+    justify-content: center;
+    margin-top:10px;
+
+}
+
+.login__sesion.register{
+    text-align: center;
+    font-weight: 500;
+    margin-bottom:20px ;
+}
+
+.login__form.register{
+    box-shadow:none;
+    background:white;
+    border-radius:8px;
+}
+
+.div__Input.register{
+  padding: 10px 10px 12px 12px;
+  
+}
+
+.div__Input.register > input {
+font-size: 16px;
+}
+
+.login__form.register > form >p{
+
+    font-size:12px;
+    color:rgba(0,0,0,.6);
+    line-height: 1rem;
+    border:none;
+    margin:15px 0 5px 0;
+
+
+
+}
+
+.login__form.register > form >p.login__form.register > form >p >span{
+  color:#0a66c2;
+  font-weight:600;  
+}
+
+
+.login__form.register >form >p:hover >{
+    text-decoration: none;
+    background:white;
+}
